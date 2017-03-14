@@ -1,6 +1,6 @@
 ######################################
 #                                    #
-#   Mixed effects modelling in R     #
+#   Mixed effects modeling in R     #
 #                                    #
 ######################################
 
