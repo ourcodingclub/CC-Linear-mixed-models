@@ -34,6 +34,7 @@ dragons$bodyLength2 <- scale(dragons$bodyLength)
 ## One way to analyse this data would be to try fitting a linear model to all our data, ignoring the sites and the mountain ranges for now.
 
 library(lme4)
+library(dplyr)
 
 basic.lm <- lm(testScore ~ bodyLength2, data = dragons)
 
